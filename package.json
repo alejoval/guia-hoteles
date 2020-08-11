@@ -1,0 +1,16 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alejo1984cali@bitbucket.org/alejo1984cali/guia-hoteles.git"
+  },
+  "author": "Alejandro Ruiz Valencia",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/alejo1984cali/guia-hoteles#readme"
+}
