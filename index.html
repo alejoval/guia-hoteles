@@ -46,22 +46,34 @@
     <li class="breadcrumb-item active" aria-current="page">Home</li>
     </ol>
     </nav> 
+      
+      <div class="row">
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+          </div>
+        <div class="col-sm-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multiCollapse2">¿Dónde puedo reservar?</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">¿Cómo puedo pagar?</button>
+      </div>  
+    </div>
 
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 collapse multi-collapse" id="funciona">
         
           <h3>Hoteles de lujo </h3>
           <p> Reserva online: rápido y seguro.
           <br> ¡Lee opiniones reales y reserva ya!
         </p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 collapse multi-collapse" id="reserva">
         
           <h3>Hoteles económicos</h3>
          <p> ¡Reserva ahora!
           <br> Miles de alojamientos a buen precio</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 collapse multi-collapse" id="pago">
           <h3>Reserva para Esta Noche </h3>
          <p>  ¡Tu reserva confirmada al instante!
           <br> Atención al cliente 24 horas</p>
